@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form>
+        <select name="dil" size="3" multiple>
+            <option value="ing">ingilizce</option>
+            <option value="alm">almanca</option>
+            <option value="tur">türkçe</option>
+            <option value="isp">ispanyolca</option>
+        </select>
+        <br/>
+        <br/>
+        <br/>
+
+        <optgroup label="sayısal dersler">
+
+            <option> matematik</option>
+            <option>fizik</option>
+            <optgroup label="sözel dersler">
+<option> edebiyat </option>
+<option>türkçe</option>
+            </optgroup>
+        </optgroup>
+        <br/>
+        <br/>
+        <br/>
+        <textarea cols="60" rows="20">
+            şikayetinizi yazınız
+        </textarea>
+        <br/>
+        <br/>
+        <br/>
+        <input list="diller"/>
+        <datalist id="diller">
+            <option value="javascprit"></option>
+            <option value="c"></option>
+            <option value="c++"></option>
+            <option value="c#"></option><br/>
+        </datalist>
+            <br/>
+            <br/>
+            <div style="width: 50%;">
+
+            <fieldset>
+                <legend>kişisel bilgiler:</legend>
+                ad-soyad: <input type="text" ><br/>
+                Telefon: <input type="text" ><br/>
+                email: <input type="text" ><br/>
+            </fieldset>
+            <br/><br/>
+            <fieldset>
+                <legend>:eğitim bilgileri:</legend>
+                okul: <input type="text" ><br/>
+                mezuniyet derecesi: <input type="text" ><br/>
+                
+            </fieldset>
+            <br/><br/>
+            <fieldset>
+                <legend>iş bilgileri:</legend>
+                son iş yeri: <input type="text" ><br/>
+                ayrılma sebebi: <input type="text" ><br/>
+              
+            </fieldset>
+        </div>
+
+    </form>
+</body>
+</html>
